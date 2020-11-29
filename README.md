@@ -123,7 +123,7 @@ Download and lauch a docker elk container through published ports:
 5044:5044
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-Diagram/docker_status.png
+![screenshot](screenshots/docker_status.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -133,8 +133,10 @@ ELK-VM 10.1.0.4
 We have installed the following Beats on these machines:
 
 -filebeat
+![filebeat](screenshots/filebeat_shot.png)
 
 -metricbeat
+![metricbeat](screenshots/metricbeat_shot.png)
 
 These Beats allow us to collect the following information from each machine:
  filebeat collects the changes done.
