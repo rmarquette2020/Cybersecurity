@@ -93,6 +93,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | Yes                 |  68.82.16.162        |
 |  web1    | no                  |  10.0.0.7            |
 |  web2    | no                  |  10.0.0.8            |
+| ELK-VM   | no                  |  10.1.0.4
 
 ### Elk Configuration
 
@@ -121,7 +122,7 @@ Download and lauch a docker elk container through published ports:
 9200:9200
 5044:5044
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+/c/Users/ilove/OneDrive/Pictures/Screenshots/status.png.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
